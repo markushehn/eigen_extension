@@ -2,7 +2,7 @@
  * @file eigen_csv.cpp
  * @brief Eigen CSV source file
  * @author Markus Hehn
- * @date 09.07.2023
+ * @date 10.07.2023
  */
 
 
@@ -15,7 +15,7 @@
 namespace EigenCSV
 {
     /**
-     * Code is inspired from https://stackoverflow.com/questions/34247057/how-to-read-csv-file-and-assign-to-eigen-matrix (the code is NOT copied)
+     * Code inspiration from https://stackoverflow.com/questions/34247057/how-to-read-csv-file-and-assign-to-eigen-matrix (the code is NOT copied)
      */
     Eigen::MatrixXd csv_read(const std::string csv_path)
     {
@@ -39,7 +39,7 @@ namespace EigenCSV
     }
     
     /**
-     * Code is inspired from https://stackoverflow.com/questions/18400596/how-can-a-eigen-matrix-be-written-to-file-in-csv-format/23566993#23566993 (the code is NOT copied)
+     * Code inspiration from https://stackoverflow.com/questions/18400596/how-can-a-eigen-matrix-be-written-to-file-in-csv-format/23566993#23566993 (the code is NOT copied)
      */
     void csv_write(const std::string csv_path , Eigen::MatrixXd matrix)
     {
