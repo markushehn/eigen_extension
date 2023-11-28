@@ -7,14 +7,13 @@
  * This code executes the test of the library functions.
  */
 
+#include "eigen_random.hpp"
+#include "eigen_csv.hpp"
+#include "eigen_pinv.hpp"
 
 #include <iostream>
 #include <complex>
 #include <Eigen/Dense>
-
-#include "eigen_random.hpp"
-#include "eigen_csv.hpp"
-#include "eigen_pinv.hpp"
 
 
 using namespace std::literals;

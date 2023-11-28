@@ -2,7 +2,7 @@
  * @file eigen_pinv.hpp
  * @brief Eigen Pinv header file
  * @author Markus Hehn
- * @date 29.09.2022
+ * @date 28.11.2023
  * 
  * This library extends the Eigen library with the functionality of calculation of the pseudo inverse based on the singular value decomposition (SVD).
  * The syntax is similar to the syntax of Matlab.
@@ -14,7 +14,6 @@
 
 
 #include <Eigen/Dense>
-#include "eigen_pinv.hpp"
 
 
 namespace EigenPinv

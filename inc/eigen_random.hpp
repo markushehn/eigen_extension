@@ -2,7 +2,7 @@
  * @file eigen_random.hpp
  * @brief Eigen random header file
  * @author Markus Hehn
- * @date 24.07.2022
+ * @date 28.11.2023
  * 
  * This library extends the Eigen library with the generation of random matrices.
  * The random numbers are distributed according to certain probability density functions.
@@ -13,6 +13,9 @@
 
 #ifndef EIGEN_RANDOM_HPP
 #define EIGEN_RANDOM_HPP
+
+
+#include <Eigen/Dense>
 
 
 namespace EigenRandom

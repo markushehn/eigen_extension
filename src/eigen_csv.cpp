@@ -2,7 +2,7 @@
  * @file eigen_csv.cpp
  * @brief Eigen CSV source file
  * @author Markus Hehn
- * @date 10.07.2023
+ * @date 28.11.2023
  */
 
 
@@ -10,6 +10,7 @@
 #include <vector>
 #include <fstream>
 #include <stdexcept>
+#include "eigen_csv.hpp"
 
 
 namespace EigenCSV
